@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: black;
+
+}
+
+div.page-wrapper{
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+
+div.element-top-left{
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+
+div.element-top-right{
+    position: relative;
+    left: 800px;
+}
+
+div.element-bottom-right{
+    position: relative;
+    top: 400px;
+}
+
+div.element-bottom-left{
+    position: relative;
+    right: 800px;
+}
+
+div.element-center{
+    position: relative;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
